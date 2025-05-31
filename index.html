@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umami</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico.png">
+    <!-- Custom style link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap style link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap icon lnks -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+        <!-- bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header section -->
+     <header>
+         <!-- - include a navigation bar wiht the restaurant's name of the left and the nav links on the right(home, Menu, About us, Contact) -->
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container mx-5">
+                  
+                  <a href="#" class="navbar-brand fw-bold"><span class="page-brand">
+                  </span>Umami</a>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                              <a href="#" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#menu" class="nav-link">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#about-us" class="nav-link text-nowrap">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#contact" class="nav-link">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+
+          
+        </header>
+        
+        <!-- Header section -->
+
+        <!-- Hero section  withing the header section -->
+          <!-- Add a hero section with an image background showcasing a delicious dish.-->
+          <!--Place a heading and a button in the center of the hero section. -->
+          <section class="hero text-center bg-none" >
+               <div class="container-fluid">
+                   <div  class="bg-slider text-center align-items-center " id="slider">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1 class="content-h1">Umami</h1>
+                            <p class="content-p">Food for the Wealthy</p>
+                            <a href="#" class="btn btn-outline-dark btn-success">Order Now</a>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+          </section>
+          <!-- Hero section -->
+    
+    <!-- Menu Section -->
+       <!-- Create a grid layout for the menu section. -->
+        <!-- Display at least three menu items, each with an image, title, description, and price. -->
+         <section class="menu" id="menu">
+            <div class="container-fluid p-5 px-3">
+                <h1 class="text-center mb-5">MENU</h1>
+
+                <div class="row">
+
+                    <div class="row col-sm-6 mb-3 menu-item">
+                        <div class="text-center">
+                            <h2>Starters</h2>
+                            <p>Delicious starters to get your appetite going.</p>
+                        </div>
+                        
+
+                        <div class="col-lg-6 mb-2 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Garlic Bread</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$1.54</h6>
+                                    <p class="card-text">Toasted baguette slices with garlic butter and herbs.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn  btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Chicken Suya Skewers</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$2.56</h6>
+                                    <p class="card-text">Grilled spiced chicken served with onions and pepper sauce.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row col-sm-6 mb-3 menu-item">
+                        <div class="text-center">
+                            <h2>Main Dish</h2>
+                            <p>Main dishes made to satisfy, not just serve.</p>
+                        </div>
+                        
+
+                        <div class="col-lg-6 mb-2 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-nowrap fs-6 text">Fried Rice & Peppered Turkey</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$5.13</h6>
+                                    <p class="card-text">Flavorful rice paired with spicy turkey chunks.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn  btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Efo Riro with Semovita</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$7.69</h6>
+                                    <p class="card-text">Spinach stew, served with semo.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row col-sm-6 mb-3 menu-item">
+                        <div class="text-center">
+                            <h2>Desserts</h2>
+                            <p>Sweet endings that linger on your taste buds.</p>
+                        </div>
+                        
+
+                        <div class="col-lg-6 mb-2 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Choco Puff Roll</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$2.56</h6>
+                                    <p class="card-text">Flaky pastry filled with chocolate cream, served warm.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn  btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Akara Waffles & Syrup </h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$3.08</h6>
+                                    <p class="card-text fs-6 text">Crispy akara, topped with spicy syrup.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-6 mb-3 menu-item">
+                        <div class="text-center">
+                            <h2>Drinks</h2>
+                            <p>Sips crafted to brighten your day.</p>
+                        </div>
+                        
+
+                        <div class="col-lg-6 mb-2 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-nowrap fs-6 text">Smoothie (Banana-Pineapple)</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$4.49</h6>
+                                    <p class="card-text">Blended tropical fruits with a touch of yogurt and honey.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn  btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ms-lg-0 ms-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 text">Palm Wine (Fresh) </h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$6.41</h6>
+                                    <p class="card-text">Freshly tapped sweet palm sap served chilled.</p>
+                                    <a href="#" class="btn btn-outline-dark">Order Now</a>
+                                    <a href="#" class="btn btn-outline-dark info-btn">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+    <!-- Menu Section -->
+
+    <!-- About-Us Section -->
+         <!-- Use the grid system to create a two-column layout.-->
+          <!-- Include an image on one side and a paragraph about the restaurant on the other. -->
+           <section class="about-us" id="about-us">
+            <div class="container py-5">
+                <h1 class="text-center mb-5">About-Us</h1>
+                <div class="row">
+                    <div class="col-6 about-text">
+                        <p>At Umami Web Restaurant, we bring the vibrant flavors of Africa right in Alabama, Florida Florala .
+                             Our dishes celebrate the rich culinary traditions of the continent, 
+                             blending authentic spices and fresh ingredients to create unforgettable meals full of warmth and soul.</p>
+
+                        <p>Whether you’re craving a taste of home or exploring African cuisine for the first time, 
+                            Umami is your destination for bold flavors and heartfelt hospitality.
+                             Join us and experience the true spirit of Africa, 
+                            one delicious bite at a time.</p>
+
+                        <div class="location">
+
+                        </div>
+                    </div>
+                    <div class=" col-6 about-img">
+                        <img src="img/restaurant-interior.jpg" class="w-100" alt="">
+    
+                    </div>
+                </div>
+            </div>
+           </section>
+    <!-- About-Us Section -->
+
+    <!-- Contact Section -->
+       <!-- Design a contact section with a form. -->
+        <!-- Include fields for name, email, message, and a submit button. -->
+         <section class="contact">
+            <div class="container">
+                <div class="row outer">
+                       <h2 class="text-center my-5">Contact Info</h2>
+                    <div class="col-6 contact-info">
+                       
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">Main Location:</span> 842 Riverfront Parkway, Montgomery, AL 36104
+                            </li>
+                             <li class="list-group-item">
+                                <span class="fw-bold">Reservation Phone:</span>(555) 555-27091
+                            </li>
+                             <li class="list-group-item">
+                                <span class="fw-bold">Contact Email:</span>info@umamiafirca.com
+                            </li>
+                             <li class="list-group-item">
+                                <span class="fw-bold">Reservation Email:</span>umamiafirca@gmail.com
+                            </li>
+                             <li class="list-group-item">
+                                <span class="fw-bold">Contact Phone:</span>(850) 555-93215
+                            </li>
+
+                             <li class="list-group-item">
+                                <span class="fw-bold">Open Hours:</span>Mon-Thu:11AM - 10PM | Fri-Sun:11AM - 11PM
+                            </li>
+                        </ul>
+                    </div>
+                    
+                        <div class=" col-6 contact-form">
+                            <form action="#" method="POST">
+
+                                <div class="form-item">
+                                    <label for="name" id="name" class="text-nowrap">Name:</label>
+                                    <input type="text" name="name" placeholder="Name" id="name"  required>
+                                </div>
+
+                                <div class="form-item">
+                                    <label for="email" id="email">Email:</label>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+
+                                <div class="form-item">
+                                    <label for="message" id="message">Message:</label>
+                                    <textarea name="message" id="message" placeholder="Reach Out..." required></textarea>
+                                </div>
+
+                                <div>
+
+                                    <button type="submit" value="submit" class="button btn-success border-0">Submit</button>
+                                </div>
+                           </form>
+                        </div>
+                </div>
+            </div>
+          
+         </section>
+    <!-- Contact Section -->
+
+
+    <!-- footer section -->
+     <!-- Design a simple footer with copyright information and social media icons. -->
+      <section class="footer mt-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col">
+                    <div class="footer-text">
+                        <p> &copy; 2025 Umami African Restuarant. All rights reserved.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex justify-content-center gap-2 text-nowrap">
+                        <div class="signout">
+                            <p><i bi bi-laptop></i>Made by cybercodemomo</p>
+                        </div>
+    
+                        <div class="social-links">
+                            <a href="#"><i class="bi bi-github"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+    <!-- footer section  -->
+     <script src="index.js"></script>
+</body>
+</html>
