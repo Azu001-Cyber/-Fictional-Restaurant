@@ -12,9 +12,6 @@
   --call-to-action: #c0ca33; /*zeaty lime for order now  buttons*/
   --text-color: #1a1f2b; /*crow black*/
 
-  /* Font family selection */
-
-  /*  */
 }
 
 /*  @media query rule to target the contact form for better user expirence*/
@@ -169,3 +166,7 @@
   background-color: var(--primary-color);
 }
 
+
+.menu-items{
+  align-self: center !important;
+}
