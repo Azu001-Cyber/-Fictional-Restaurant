@@ -1,0 +1,171 @@
+
+/* Import poppins font fron google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+
+:root{
+  --primary-color: #2e7d32; /*umami green*/
+  --secondary-color: #a5d6a7; /*sage backgrounds and subtle elements*/
+  --accent-1: #81c784; /*accent 1 highlights and icons*/
+  --accent-2: #4e342e; /*earth brown*/
+  --light-background: #f9fbe7; /*off white*/
+  --call-to-action: #c0ca33; /*zeaty lime for order now  buttons*/
+  --text-color: #1a1f2b; /*crow black*/
+
+  /* Font family selection */
+
+  /*  */
+}
+
+/*  @media query rule to target the contact form for better user expirence*/
+ @media only screen and (max-width:600px), (min-width:600px){
+ .contact-info .list-group-item{
+  display: flex;
+  flex-wrap: wrap;
+ } 
+
+
+}
+*{
+  color: var(--text-color) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.navbar-brand:hover{
+  color: var(--call-to-action) !important;
+  
+}
+.navbar{
+  background-color: var(--primary-color);
+}
+
+.nav-link:hover{
+  color: var(--call-to-action) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--light-background) !important;
+  text-decoration-thickness: 0.125rem !important;
+  text-underline-offset: 0.25rem !important;
+  transition: var(--light-background) 0.3s ease-in-out;
+}
+
+/* Hero section styles */
+
+.hero { 
+  margin: 0;
+  height: 100%;
+} 
+
+.content-h1,
+.content-p{
+  color: #fff !important;
+}
+
+.bg-slider{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s ease-in-out;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.content{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  top: 40%;
+  font-size: 2rem;
+}
+
+/* individual button styles */
+
+.btn{
+  background-color: var(--call-to-action) !important;
+}
+.info-btn{
+  background-color: var(--light-background) !important;
+}
+
+.menu{
+  background-color: var(--secondary-color);
+}
+
+/*About Section styles  */
+
+.about-us{
+  background-color: var(--light-background);
+}
+
+/* Contact section styles */
+.contact-form{
+  background: linear-gradient(135deg,  var(--accent-1),var(--call-to-action), var(--light-background));
+  border: solid 1px black;
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.contact-form form > *{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+/* .button{
+  width: 50%;
+  height: 3.05rem;
+  border-radius: 20px;
+  
+ 
+  background-color: var(--text-color) !important;
+} */
+
+
+.contact-form button {
+  width: 50%;
+  padding: 0.75rem;
+  background-color : var(--text-color);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+  color: #fff !important;
+}
+
+.contact-form button:hover {
+   background: linear-gradient(135deg,  var(--accent-1),var(--call-to-action), var(--light-background));
+   color: var(--text-color) !important;
+}
+
+/* footer section */
+
+.footer{
+  background-color: var(--primary-color);
+}
+
