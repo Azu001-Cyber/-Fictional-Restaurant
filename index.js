@@ -9,5 +9,13 @@ function changeBackground(){
     current = (current + 1) % images.length;
 }
 
+
+function submitForm(){
+    alert("We'll get back to you shortly.")
+}
+
+const btn = document.querySelector('button')
+btn.addEventListener('click', submitForm)
+
 changeBackground(); //set initial
 setInterval(changeBackground, 5000) // Change every 5 secs
