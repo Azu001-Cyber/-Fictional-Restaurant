@@ -1,10 +1,5 @@
-# -Fictional-Restaurant
-===
-Abstract:xxx
-## Papar Information
-- Title:  `Umami Restaurant Landing Page`
+# Umami Restaurant Landing Page
 - Description `A modern, responsive restaurant landing page featuring a dynamic hero section with image transitions, a clean user interface, and a styled contact form. Built with HTML5, CSS3, and vanilla JavaScript.`
-- Author:  `cybercodemomo`,
 
 
 ## Built With
