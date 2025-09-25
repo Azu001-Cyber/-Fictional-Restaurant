@@ -14,15 +14,7 @@
 
 }
 
-/*  @media query rule to target the contact form for better user expirence*/
- @media only screen and (max-width:600px), (min-width:600px){
- .contact-info .list-group-item{
-  display: flex;
-  flex-wrap: wrap;
- } 
 
-
-}
 *{
   color: var(--text-color) !important;
   font-family: "Poppins", "Montserrat", sans-serif !important;
@@ -122,9 +114,13 @@
   border-radius: 1rem;
   background-color: var(--secondary-color);
   max-width: 500px;
-  margin: auto;
   padding: 2rem;
   color: #fff;
+}
+@media (max-width: 768px){
+    .contact-form{
+    margin: 2rem 0 2rem 0;
+    }
 }
 
 
@@ -168,7 +164,3 @@
   background-color: var(--primary-color);
 }
 
-
-.menu-items{
-  align-self: center !important;
-}

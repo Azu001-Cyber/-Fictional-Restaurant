@@ -10,12 +10,12 @@ function changeBackground(){
 }
 
 
+changeBackground(); //set initial
+setInterval(changeBackground, 5000) // Change every 5 secs
+
+const btn = document.querySelector('#form-btn')
 function submitForm(){
     alert("We'll get back to you shortly.")
 }
 
-const btn = document.querySelector('button')
 btn.addEventListener('click', submitForm)
-
-changeBackground(); //set initial
-setInterval(changeBackground, 5000) // Change every 5 secs
