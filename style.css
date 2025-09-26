@@ -164,3 +164,11 @@
   background-color: var(--primary-color);
 }
 
+@media(max-width:768px){
+  .signout-div{
+    background-color: var(--light-background);
+  }
+  .signout-div p{
+    color: #000 !important;
+  }
+}
