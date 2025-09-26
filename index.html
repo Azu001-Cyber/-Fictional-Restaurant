@@ -27,31 +27,38 @@
             
                 <a href="#" class="navbar-brand fw-bold"><span class="page-brand">
                 </span>Umami</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#menu" class="nav-link">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about-us" class="nav-link text-nowrap">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
+            <!-- Implement sidebard with bootstrap utilities -->
+            <!-- Offcanvas Sidebar -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fw-bold" id="navbarNavLabel">Umami</h5>
+                        <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#menu" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about-us" class="nav-link text-nowrap">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </nav>  
+    </header>
 
-        
-        </header>
+    <div id="overlay" tabindex="-1" aria-hidden="true"></div>
         
         <!-- Header section -->
 

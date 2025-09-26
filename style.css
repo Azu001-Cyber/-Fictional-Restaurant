@@ -164,7 +164,7 @@
   background-color: var(--primary-color);
 }
 
-@media(max-width:768px){
+@media(max-width:576px){
   .signout-div{
     background-color: var(--light-background);
   }
@@ -174,4 +174,9 @@
   .card{
     justify-self: center !important;
   }
+
+  .offcanvas {
+  width: 250px !important; /* default is 400px on desktop */
+}
+
 }
