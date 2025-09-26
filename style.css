@@ -171,4 +171,7 @@
   .signout-div p{
     color: #000 !important;
   }
+  .card{
+    justify-self: center !important;
+  }
 }
